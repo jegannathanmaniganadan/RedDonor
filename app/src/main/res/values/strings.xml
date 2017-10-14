@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Red Donor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="string_enter_name">Enter your name*</string>
+    <string name="enter_phone_number">Mobile number*</string>
+    <string name="string_enter_email">Enter your email*</string>
+    <string name="string_enter_blood_group">Chose Blood Group*</string>
+    <string name="enter_postal_number">Enter ZIP/Postal Code*</string>
+    <string name="Status">Not Registered</string>
+
+    <string-array name="blood_group_array">
+        <item>None</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="button_register">Register</string>
+    <string name="button_update">Update Your Blood Profile Here</string>
+    <string name="date_button_set">Blood donated previously on</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

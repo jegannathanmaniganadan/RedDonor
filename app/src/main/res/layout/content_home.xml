@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/last_drop_of_blood">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:text="Register"
+        android:textColor="#FF0808"
+        android:textSize="20sp"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:background="@drawable/registerbutton"
+        android:layout_alignTop="@+id/angry_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="register"/>
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:text="Search Donor"
+        android:textColor="#FF0808"
+        android:textSize="20sp"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:background="@drawable/searchbutton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="searchOnMap"/>
+
+</RelativeLayout>
